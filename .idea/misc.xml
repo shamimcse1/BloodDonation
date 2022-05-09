@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BloodDonation2/app/src/main/res/drawable/ic_add.xml" value="0.1855" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" value="0.1245" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/drawable/ic_date_time.xml" value="0.1245" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/drawable/ic_person.xml" value="0.1855" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/drawable/ic_phone.xml" value="0.1855" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/drawable/rounded_border_edittext.xml" value="0.1245" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/activity_be_donor.xml" value="0.25" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/activity_intro.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/activity_sign_in.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/app_bar_main.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/content_main.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/fragment_about.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/fragment_gallery.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/fragment_slideshow.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/item.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/layout_screen.xml" value="0.25" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/list_item.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/layout/nav_header_main.xml" value="0.209375" />
+        <entry key="..\:/BloodDonation2/app/src/main/res/menu/activity_main_drawer.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

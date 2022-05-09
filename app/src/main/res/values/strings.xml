@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Blood Donation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">More Ways You Can Make a Difference</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_about">About Us</string>
+    <string name="be_a_donor">Be a Donor</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="select_blood_group">Select Blood Group</string>
+    <string name="WhyLifeSource">Though Bangladesh has more than 160 million people, the number of safe blood bank is very few. Without divisional towns, there is hardly any blood bank. But a huge amount of blood is needed for treatment purposes. A good number of accidents take place every day where blood needs essentially. As a result, people fall in real trouble to manage blood. But there are many blood donors who are interested in donating blood but don’t know who needs blood. The communication gap is resulting in the loss of many lives. LifeSource comes into the scenario to reduce or minimize the communication gap and connects people in a moment using the amazing power of SMS and email. As LifeSource services can also be availed by SMS, peop</string>
+
+    <string name="LifeSource">LifeSource is an automated blood service that connects blood searchers with voluntary blood donors in a moment through SMS. LifeSource is a not-for-profit initiative to aware people of voluntary blood donation in Bangladesh.</string>
+    <string name="Vision">Ensuring no more death just for the need of blood</string>
+    <string name="Mission">Connecting blood searchers with voluntary blood donors in a moment with the use of technology.</string>
+    <string name="Objectives">Encouraging voluntary blood donation Creating awareness about safe blood transfer Enabling people to place blood request via SMS, website, or facebook Connecting voluntary blood donors via SMS or email</string>
+</resources>

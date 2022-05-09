@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".auth.BeADonorActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxStrokeColor="@color/borderColor"
+                app:boxStrokeWidthFocused="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="50"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/borderColor"
+                app:hintTextColor="@color/borderColor"
+                app:startIconDrawable="@drawable/ic_person"
+                app:startIconTint="@color/borderColor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fullNameTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textCursorDrawable="@null"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:hint="Email"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxStrokeColor="@color/borderColor"
+                app:boxStrokeWidthFocused="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/borderColor"
+                app:hintTextColor="@color/borderColor"
+                app:startIconDrawable="@drawable/ic_email"
+                app:startIconTint="@color/borderColor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:hint="Mobile"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxStrokeColor="@color/borderColor"
+                app:boxStrokeWidthFocused="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="14"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/borderColor"
+                app:hintTextColor="@color/borderColor"
+                app:startIconDrawable="@drawable/ic_phone"
+                app:startIconTint="@color/borderColor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/numberTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:hint="Address"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxStrokeColor="@color/borderColor"
+                app:boxStrokeWidthFocused="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="110"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/borderColor"
+                app:hintTextColor="@color/borderColor"
+                app:startIconDrawable="@drawable/ic_location"
+                app:startIconTint="@color/borderColor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addressTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textAutoComplete"
+                    android:maxLines="1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:hint="Date of Birth"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxStrokeColor="@color/borderColor"
+                app:boxStrokeWidthFocused="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/borderColor"
+                app:hintTextColor="@color/borderColor"
+                app:startIconDrawable="@drawable/ic_date_time"
+                app:startIconTint="@color/borderColor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dateOfBirthTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="datetime"
+                    android:maxLines="1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:hint="@string/select_gender"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:startIconDrawable="@drawable/ic_gender"
+                app:startIconTint="@color/borderColor">
+
+                <AutoCompleteTextView
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:focusable="true"
+                    android:inputType="none"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp"
+                android:hint="@string/select_blood_group"
+                android:textColorHint="@color/borderColor"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:startIconDrawable="@drawable/ic_gender"
+                app:startIconTint="@color/borderColor">
+
+                <AutoCompleteTextView
+                    android:id="@+id/bloodGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:focusable="true"
+                    android:inputType="none"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSubmit"
+                style="@style/ShapeAppearanceOverlay.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColorHint="@color/borderColor"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>
